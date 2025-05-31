@@ -69,7 +69,7 @@ ensure steam-verifier
 
 ---
 
-## 🧪 Example Kick Message
+## ⚠️ Example Kick Message
 
 ```
 Connection denied. Steam must be running to join this server.
