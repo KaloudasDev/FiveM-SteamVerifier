@@ -1,7 +1,7 @@
 # 🛡️ Steam Verifier
 **Steam Verifier** is an open-source FiveM server script that enforces Steam authentication by preventing players from connecting without an active Steam client. Leveraging the `playerConnecting` event, it ensures a secure and reliable connection environment for your server, verifying that all users are properly authenticated through Steam Client.
 
-Perfect for communities, roleplay servers, and whitelisted communities!
+Perfect for roleplay servers, whitelist groups, and online communities!
 
 ## ✨ Features
 - [x] Checks if the player has an active Steam connection
@@ -11,7 +11,7 @@ Perfect for communities, roleplay servers, and whitelisted communities!
 - [x] Clean and clear kick messages (`deferrals.done(...)`)
 - [x] Easy integration with any FiveM server
 - [x] Minimal resource usage with zero performance impact
-- [ ] More Features to come in the future...
+- [ ] More features to come in the future...
 
 ## ⚙️ How it works
 The script hooks into the `playerConnecting` event and inspects the player’s identifiers for a valid `steam:` ID. If none is found, the connection is rejected.
@@ -32,9 +32,6 @@ end)
 ```lua
 fx_version 'cerulean'
 game 'gta5'
-
-author 'Kaloudas'
-description 'Resource that kicks players without active Steam client'
 version '1.0.0'
 
 server_script 'steamCheck.lua'
@@ -42,6 +39,10 @@ server_script 'steamCheck.lua'
 > \[!WARNING]
 > This script requires a valid Steam Web API Key to properly verify player Steam IDs.
 > Make sure to configure your Steam Web API Key in the script before use.
+
+```cfg
+set steam_webApiKey "YOUR_STEAM_WEB_API_KEY"
+```
 
 4. Enable the resource in your `server.cfg`:
 
