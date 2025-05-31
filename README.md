@@ -40,11 +40,13 @@ server_script 'steamCheck.lua'
 > This script requires a valid Steam Web API Key to properly verify player Steam IDs.
 > Make sure to configure your Steam Web API Key in the script before use.
 
+4. Configure your Steam Web API Key in your `server.cfg`:
+
 ```cfg
 set steam_webApiKey "YOUR_STEAM_WEB_API_KEY"
 ```
 
-4. Enable the resource in your `server.cfg`:
+5. Enable the resource by adding the following line to your `server.cfg`:
 
 ```cfg
 ensure steam-verifier
