@@ -73,14 +73,3 @@ ensure steam-verifier
 ```
 Connection denied. Steam must be running to join this server.
 ```
-
----
-
-## 🤝 Contributing
-
-Pull requests για προσθήκες (π.χ. whitelist fallback, logs, debug mode κλπ) είναι ευπρόσδεκτες!
-
-* Μην στέλνετε spam PRs ή αλλαγές που δεν σχετίζονται με τον σκοπό του script
-* Για ιδέες ή feature requests, άνοιξε Issue πρώτα
-
----
