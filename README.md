@@ -55,7 +55,7 @@ ensure steam-verifier
 > Temporary Steam connectivity issues may require restarting Steam and FiveM.
 
 ## 🔎 Support & Security
-If you have any questions or if you discover a security vulnerability within Cially, please join my [Discord Server](https://discord.gg/TNzPwhRvXH) and let me know! I will try to assist you as soon as possible!
+If you have any questions or if you discover a security vulnerability, please contact me on [Discord Profile](https://discordlookup.com/user/1069279857072160921) and let me know! I will try to assist you as soon as possible!
 Please do not publish publicly security vulnerabilities. 
 
 ## 📣 Contributing
@@ -64,15 +64,15 @@ Please open a PR for new features or issues you managed to fix! However keep the
 - Do not sumbit "troll" or "spam" requests.
 - Do not rewrite a big part of the project in a single pull request.
 
+Sure! Here's a professional replacement text for the license section stating that **you hold the MIT license** for the project:
+
 ## 📜 License
-This project is licensed under the [Attribution-NonCommercial-NoDerivs 2.0 License](https://creativecommons.org/licenses/by-nc-nd/2.0/deed.en)
-### You are free to:
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material.
-The licensor cannot revoke these freedoms as long as you follow the license terms.
-### Under the following terms:
-- **Attribution** — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **NonCommercial** — You may not use the material for commercial purposes .
--** No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+This project is licensed under the **MIT License**, granting you full permission to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, under the following conditions:
+
+* You must include the original copyright notice and this permission notice in all copies or substantial portions of the software.
+* The software is provided "as is", without warranty of any kind, express or implied.
+
+For full details, see the [MIT License](https://opensource.org/licenses/MIT).
 
 ### Created by [KaloudasDev](https://github.com/KaloudasDev)! Please leave a ⭐ if you like this project!
