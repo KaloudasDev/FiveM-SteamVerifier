@@ -16,6 +16,9 @@
 | ✔️ | Easy integration with any FiveM server                |
 | ✔️ | Minimal resource usage with zero performance impact   |
 
+> \[!TIP]
+> Steam client **must be running before launching FiveM**, otherwise the player will be rejected.
+
 ---
 
 ## 🔧 How It Works
@@ -49,20 +52,15 @@ version '1.0.0'
 server_script 'steamCheck.lua'
 ```
 
+> \[!WARNING]
+> Players attempting to join without Steam running will receive:
+> *“Steam must be running to join this server.”*
+
 4. Enable the resource in your `server.cfg`:
 
 ```cfg
 ensure steam-verifier
 ```
-
----
-
-> \[!TIP]
-> Steam client **must be running before launching FiveM**, otherwise the player will be rejected.
-
-> \[!WARNING]
-> Players attempting to join without Steam running will receive:
-> *“Steam must be running to join this server.”*
 
 > \[!CAUTION]
 > Temporary Steam connectivity issues may require restarting Steam and FiveM.
