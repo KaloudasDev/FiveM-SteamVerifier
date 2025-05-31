@@ -24,6 +24,9 @@ AddEventHandler('playerConnecting', function(name, setKickReason, deferrals)
 end)
 ```
 
+> \[!TIP]
+> The Steam client **must be running before launching FiveM**; otherwise, the player connection will be rejected.
+
 ## 🛠️ Installation
 1. Download or copy the `steamCheck.lua` file.
 2. Place it inside a resource folder, e.g. `/resources/[local]/steam-verifier/`.
