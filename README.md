@@ -55,16 +55,18 @@ ensure steam-verifier
 > Temporary Steam connectivity issues may require restarting Steam and FiveM.
 
 ## 🔎 Support & Security
-If you have any questions or if you discover a security vulnerability, please contact me on [Discord Profile](https://discordlookup.com/user/1069279857072160921) and let me know! I will try to assist you as soon as possible!
-Please do not publish publicly security vulnerabilities. 
+
+If you have any questions or discover a security vulnerability, please contact me directly via my [Discord Profile](https://discordlookup.com/user/1069279857072160921). I am committed to responding promptly and assisting you as quickly as possible.
+
+**Please refrain from publicly disclosing any security vulnerabilities** to ensure proper handling and resolution.
 
 ## 📣 Contributing
-Please open a PR for new features or issues you managed to fix! However keep the following in mind:
-- Do not open pull requests regarding minor issues such as grammatical errors. Open an issue instead.
-- Do not sumbit "troll" or "spam" requests.
-- Do not rewrite a big part of the project in a single pull request.
 
-Sure! Here's a professional replacement text for the license section stating that **you hold the MIT license** for the project:
+Contributions are welcome! Please submit a Pull Request (PR) for new features or issues you have resolved, keeping the following guidelines in mind:
+
+* For minor issues such as typographical or grammatical errors, please open an issue rather than a PR.
+* Avoid submitting irrelevant, spammy, or troll pull requests.
+* Do not attempt to rewrite large portions of the project in a single PR; keep changes focused and manageable.
 
 ## 📜 License
 
