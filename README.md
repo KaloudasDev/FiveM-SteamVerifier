@@ -57,14 +57,14 @@ ensure steam-verifier
 
 ---
 
-> **Tip:**
+> \[!TIP]
 > Steam client **must be running before launching FiveM**, otherwise the player will be rejected.
 
-> **Warning:**
+> \[!WARNING]
 > Players attempting to join without Steam running will receive:
 > *“Steam must be running to join this server.”*
 
-> **Caution:**
+> \[!CAUTION]
 > Temporary Steam connectivity issues may require restarting Steam and FiveM.
 
 ---
