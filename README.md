@@ -84,19 +84,3 @@ Pull requests για προσθήκες (π.χ. whitelist fallback, logs, debug 
 * Για ιδέες ή feature requests, άνοιξε Issue πρώτα
 
 ---
-
-## 📜 License
-
-MIT License
-Ελεύθερη χρήση, τροποποίηση και διανομή. Δες [LICENSE](./LICENSE) για λεπτομέρειες.
-
----
-
-## 👤 Author
-
-Created with ❤️ by [Kaloudas](https://github.com/kaloudas)
-Αν σου άρεσε, άφησε ένα ⭐ στο repo!
-
----
-
-Αν θες, μπορώ να το κάνω απευθείας export ως αρχείο `README.md` ή να σου το κάνω paste με έτοιμο banner σε GitHub-style format. Να σου βάλω και `.gif` για την εμπειρία σύνδεσης (Steam OFF vs ON);
