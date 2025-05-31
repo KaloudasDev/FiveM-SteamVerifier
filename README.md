@@ -77,4 +77,6 @@ This project is licensed under the **MIT License**, granting you full permission
 
 For full details, see the [MIT License](https://opensource.org/licenses/MIT).
 
-### Created by [KaloudasDev](https://github.com/KaloudasDev)! Please leave a ⭐ if you like this project!
+### Created by [KaloudasDev](https://github.com/KaloudasDev).
+
+If you find this project useful, please consider leaving a ⭐. Thank you for your support!
