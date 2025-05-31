@@ -74,4 +74,4 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 - **NonCommercial** — You may not use the material for commercial purposes .
 -** No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-### Created by [Kaloudas](https://github.com/KaloudasDev)! Please leave a ⭐ if you like this project and want to see more features!
+### Created by [KaloudasDev](https://github.com/KaloudasDev)! Please leave a ⭐ if you like this project!
