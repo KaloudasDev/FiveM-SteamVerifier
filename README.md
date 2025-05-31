@@ -1,11 +1,3 @@
-Μάλιστα, κατάλαβα! Θες να φτιάξουμε ένα **επαγγελματικό και εντυπωσιακό README.md** για το **Steam Verifier** σου, με όλα τα καλά: εικόνα στο κέντρο, markdown `TIP`, `WARNING`, `CAUTION`, πίνακες λειτουργιών, clean δομή, emoji icons και ωραίο copywriting. Ορίστε ένα έτοιμο πρότυπο που **μοιάζει με του Cially** και είναι έτοιμο να το βάλεις στο repo:
-
----
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/196fe635-3d81-46ae-92c3-f34296ce02c0" alt="Steam Verifier Banner"/>
-</p>
-
 # 🛡️ Steam Verifier
 
 **Steam Verifier** είναι ένα ελαφρύ, open-source script για FiveM που εμποδίζει τους παίκτες να συνδεθούν εάν δεν έχουν ανοικτό το Steam. Χρησιμοποιεί το event `playerConnecting` και παρέχει ασφαλή, σταθερή εμπειρία στο server σου εξασφαλίζοντας ότι όλοι οι παίκτες είναι πιστοποιημένοι μέσω Steam.
