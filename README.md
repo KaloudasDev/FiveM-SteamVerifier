@@ -1,33 +1,32 @@
 # 🛡️ Steam Verifier
 
-Το **Steam Verifier** είναι ένα open-source script για FiveM Servers, που επιβάλλει ταυτοποίηση μέσω Steam, αποτρέποντας παίκτες από το να συνδεθούν αν δεν έχουν ενεργό Steam Client. Χρησιμοποιώντας το event `playerConnecting`, εξασφαλίζει ασφαλές και αξιόπιστο περιβάλλον σύνδεσης για τον server σου, επιβεβαιώνοντας ότι όλοι οι χρήστες είναι πιστοποιημένοι μέσω Steam.
+**Steam Verifier** is an open-source FiveM server script that enforces Steam authentication by preventing players from connecting without an active Steam client. Leveraging the `playerConnecting` event, it ensures a secure and reliable connection environment for your server, verifying that all users are properly authenticated through Steam.
 
 ---
 
 ## ✨ Features
 
-| ✅  | Περιγραφή                                                      |
-| -- | -------------------------------------------------------------- |
-| ✔️ | Ελέγχει αν ο παίκτης έχει ενεργή σύνδεση στο Steam             |
-| ✔️ | Αππορείπτει την σύνδεση σε παίτκες που δεν έχουν ανοιχτό Steam |
-| ✔️ | Πλήρης συμβατότητα με `playerConnecting` deferrals             |
-| ✔️ | Αντιμετωπίζει μη έγκυρες συνδέσεις (π.χ. `src == nil`)         |
-| ✔️ | Καθαρά και κατανοητά μηνύματα kick (`deferrals.done(...)`)     |
-| ✔️ | Εύκολη ενσωμάτωση σε οποιονδήποτε FiveM server                 |
-| ✔️ | Ελάχιστη χρήση πόρων και μηδενική επιβάρυνση στην απόδοση      |
-
+| ✅  | Description                                           |
+| -- | ----------------------------------------------------- |
+| ✔️ | Checks if the player has an active Steam connection   |
+| ✔️ | Denies connection to players without Steam running    |
+| ✔️ | Fully compatible with `playerConnecting` deferrals    |
+| ✔️ | Handles invalid connections (e.g. `src == nil`)       |
+| ✔️ | Clean and clear kick messages (`deferrals.done(...)`) |
+| ✔️ | Easy integration with any FiveM server                |
+| ✔️ | Minimal resource usage with zero performance impact   |
 
 ---
 
 ## 🔧 How It Works
 
-Το script ενεργοποιείται στο event `playerConnecting`. Ελέγχει τις ταυτότητες του παίκτη για το αναγνωριστικό `steam:`. Αν δεν εντοπιστεί, η σύνδεση απορρίπτεται.
+The script hooks into the `playerConnecting` event and inspects the player’s identifiers for a valid `steam:` ID. If none is found, the connection is rejected.
 
-Η λύση αυτή δεν απαιτεί βάσεις δεδομένων ή περίπλοκες λειτουργείες, προσφέροντας έναν απλό αλλά αποτελεσματικό τρόπο επιβολής Steam-Only συνδέσεων.
+This solution requires no databases or complex authentication logic, providing a simple yet effective enforcement of Steam-only connections.
 
 ```lua
 AddEventHandler('playerConnecting', function(name, setKickReason, deferrals)
-    -- Ο πλήρης κώδικας βρίσκεται στο `steamCheck.lua`
+    -- Full code available in `steamCheck.lua`
 end)
 ```
 
@@ -35,22 +34,22 @@ end)
 
 ## 📦 Installation
 
-1. Κατέβασε ή αντιγράψε το αρχείο `steamCheck.lua`.
-2. Τοποθέτησέ το σε φάκελο resource, π.χ. `/resources/[local]/steam-verifier/`.
-3. Πρόσθεσε το παρακάτω στο αρχείο `fxmanifest.lua` του φακέλου:
+1. Download or copy the `steamCheck.lua` file.
+2. Place it inside a resource folder, e.g. `/resources/[local]/steam-verifier/`.
+3. Add the following to the resource’s `fxmanifest.lua` file:
 
 ```lua
 fx_version 'cerulean'
 game 'gta5'
 
 author 'Kaloudas'
-description 'Resource που αποβάλλει παίκτες χωρίς ενεργό Steam'
+description 'Resource that kicks players without active Steam client'
 version '1.0.0'
 
 server_script 'steamCheck.lua'
 ```
 
-4. Ενεργοποίησε το resource στο `server.cfg`:
+4. Enable the resource in your `server.cfg`:
 
 ```cfg
 ensure steam-verifier
@@ -59,14 +58,14 @@ ensure steam-verifier
 ---
 
 > **Tip:**
-> Ο Steam client **πρέπει να είναι ανοιχτός πριν την εκκίνηση του FiveM**, διαφορετικά η σύνδεση του παίκτη θα απορριφθεί.
+> Steam client **must be running before launching FiveM**, otherwise the player will be rejected.
 
 > **Warning:**
-> Οι παίκτες που προσπαθούν να μπουν χωρίς ανοιχτό Steam θα δουν το μήνυμα:
+> Players attempting to join without Steam running will receive:
 > *“Steam must be running to join this server.”*
 
 > **Caution:**
-> Σε περιπτώσεις προσωρινών προβλημάτων σύνδεσης με Steam, ίσως χρειαστεί επανεκκίνηση Steam και FiveM.
+> Temporary Steam connectivity issues may require restarting Steam and FiveM.
 
 ---
 
@@ -75,5 +74,3 @@ ensure steam-verifier
 ```
 Connection denied. Steam must be running to join this server.
 ```
-
----
